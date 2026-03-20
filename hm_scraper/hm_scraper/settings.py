@@ -8,6 +8,13 @@ NEWSPIDER_MODULE = "hm_scraper.spiders"
 
 ROBOTSTXT_OBEY = False
 FEED_EXPORT_ENCODING = "utf-8"
+FEEDS = {
+    "output.json": {
+        "format": "json",
+        "overwrite": True,
+        "indent": 2,
+    }
+}
 
 USER_AGENT = None
 
