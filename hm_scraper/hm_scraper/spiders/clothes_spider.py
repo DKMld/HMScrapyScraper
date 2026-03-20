@@ -4,7 +4,7 @@ import scrapy
 from scrapy_playwright.page import PageMethod
 
 
-class HmApiSpider(scrapy.Spider):
+class HmSpider(scrapy.Spider):
     name = "product"
     allowed_domains = ["www2.hm.com"]
     start_urls = [
